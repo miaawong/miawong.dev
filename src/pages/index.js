@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
-import SideBar from '../components/SideBar/index';
+import SideBar from '../components/Sidebar';
 
 import beach from '../assets/images/beachresort.png';
 import matcha from '../assets/images/matchamia.png';
