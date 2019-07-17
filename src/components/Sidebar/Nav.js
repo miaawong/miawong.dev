@@ -1,5 +1,5 @@
-import React from 'react';
-import Scrollspy from 'react-scrollspy';
+import React from './node_modules/react';
+import Scrollspy from './node_modules/react-scrollspy';
 import Scroll from '../Scroll';
 
 export default function Nav({ sections = [] }) {

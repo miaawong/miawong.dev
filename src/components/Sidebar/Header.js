@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from './node_modules/react';
+import { Link } from './node_modules/gatsby';
 
 export default function Footer({ title, heading }) {
   return (
