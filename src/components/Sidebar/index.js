@@ -1,4 +1,4 @@
-import React, { useState } from './node_modules/react';
+import React, { useState } from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import Nav from './Nav';
