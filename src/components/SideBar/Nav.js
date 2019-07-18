@@ -26,7 +26,12 @@ export default function Nav({ sections = [] }) {
         </Scrollspy>
         <li>
           <a href={resume} download>
-            <span className="fa fa-download">Resume</span>
+            <span
+              className="fa fa-download"
+              style={{ fontFamily: 'Source Sans Pro, sans-serif' }}
+            >
+              Resume
+            </span>
           </a>
         </li>
       </ul>
