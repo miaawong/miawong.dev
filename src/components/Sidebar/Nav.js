@@ -1,6 +1,7 @@
 import React from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from '../Scroll';
+import resume from '../../assets/resume/miawong.pdf';
 
 export default function Nav({ sections = [] }) {
   return (
@@ -23,6 +24,11 @@ export default function Nav({ sections = [] }) {
             );
           })}
         </Scrollspy>
+        <li>
+          <a href={resume} download>
+            <span className="fa fa-download">Resume</span>
+          </a>
+        </li>
       </ul>
     </nav>
   );

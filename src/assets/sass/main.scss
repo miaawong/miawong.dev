@@ -133,13 +133,13 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		color: #666;
+	font-weight: 500;
+		color: #242424; 
 		line-height: 1.5em;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: inherit;
+		// color: inherit;
 		text-decoration: none;
 
 		strong {
@@ -390,7 +390,11 @@
 		}
 	}
 
-
+/* project icons */ 
+.projectIcons { 
+	margin-right: 0.5rem; 
+	color: black; 
+}
 /* Table */
 
 	table {
@@ -1017,6 +1021,29 @@
 				}
 			}
 	}
+/* skills */ 
+.skills-container { 
+	align-items: center; 
+	display: grid; 
+	grid-gap: 3px; 
+grid-template-columns: repeat(4, 1fr);
+	justify-content: center; 
+	color: black; 
+	
+}
+.skills-container p { 
+	background-color: #cc3333;
+	border: 2px solid white; 
+	border-radius: 5px; 
+}
+.skills-container p:hover { 
+background-color: white; 
+	border: 2px solid #cc3333; 
+}
+
+.skills-block { 
+	margin: 0 auto; max-width: 70%; 
+}
 
 /* Mobile */
 
@@ -1046,7 +1073,6 @@
 					font-size: 1.25em;
 				}
 			}
-
 		/* Main */
 
 			#main {
@@ -1064,6 +1090,7 @@
 					}
 				}
 			}
+	
 
 		/* Footer */
 
