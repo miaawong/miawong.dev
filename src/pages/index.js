@@ -18,7 +18,7 @@ import {
 
 import beach from '../assets/images/beachresort.png';
 import matcha from '../assets/images/matchamia.png';
-import under from '../assets/images/under.jpeg';
+import weather from '../assets/images/weatherapp.png';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -90,10 +90,10 @@ const IndexPage = () => (
 
               <article className="item">
                 <a
-                  href="https://github.com/miaawong/react-weatherApp"
+                  href="https://reactweatherapp-mia.netlify.com/"
                   className="image fit"
                 >
-                  <img src={under} alt="" />
+                  <img src={weather} alt="" />
                 </a>
                 <header>
                   <h3>React Weather App</h3>
@@ -104,7 +104,7 @@ const IndexPage = () => (
                     <FaGithub />
                   </a>
                   <a
-                    href="https://react-beach-resort-mia.netlify.com"
+                    href="https://reactweatherapp-mia.netlify.com/"
                     className="projectsIcons"
                   >
                     <FaDesktop />
