@@ -304,11 +304,12 @@
 	.image {
 		display: inline-block;
 		border: 0;
+	
 
 		img {
 			display: block;
 			width: 100%;
-			height: 100%; 
+			height: 50vh; 
 		}
 
 		&.avatar48 {
@@ -744,6 +745,7 @@
 			#main {
 				margin-left: 300px;
 			}
+		
 
 	}
 
@@ -764,6 +766,15 @@
 					}
 				}
 			}
+	/*Image */ 
+	.image {
+	
+		img {
+			display: block;
+			width: 100%;
+			height: 30vh; 
+		}
+	}
 
 	}
 
@@ -796,7 +807,15 @@
 			.item {
 				margin-bottom: 20px;
 			}
-
+/*Image */ 
+	.image {
+	
+		img {
+			display: block;
+			width: 100%;
+			height: 30vh; 
+		}
+	}
 		/* Header */
 
 			#header {
@@ -888,6 +907,16 @@
 					font-size: 1.25em;
 				}
 			}
+			/*Image */ 
+	.image {
+	
+		img {
+			display: block;
+			width: 100%;
+			height: 30vh; 
+		}
+	}
+	
 
 		/* Header */
 

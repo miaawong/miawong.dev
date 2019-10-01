@@ -19,6 +19,7 @@ import {
 import beach from '../assets/images/beachresort.png';
 import matcha from '../assets/images/matchamia.png';
 import weather from '../assets/images/weatherapp.png';
+import landscape from '../assets/images/landscape.png';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -104,7 +105,7 @@ const IndexPage = () => (
                     <FaGithub />
                   </a>
                   <a
-                    href="https://reactweatherapp-mia.netlify.com/"
+                    href="https://weatherapp-miawong.netlify.com"
                     className="projectsIcons"
                   >
                     <FaDesktop />
@@ -127,6 +128,29 @@ const IndexPage = () => (
                   </a>
                   <a
                     href="https://matchamia.netlify.com"
+                    className="projectIcons"
+                  >
+                    <FaDesktop />
+                  </a>
+                </header>
+              </article>
+              <article className="item">
+                <a
+                  href="https://osorno-scapes.netlify.com/"
+                  className="image fit"
+                >
+                  <img src={landscape} alt="landscape" />{' '}
+                </a>
+                <header>
+                  <h3>Landscape </h3>
+                  <a
+                    href="https://github.com/miaawong/osorno_scapes"
+                    className="projectIcons"
+                  >
+                    <FaGithub />
+                  </a>
+                  <a
+                    href="https://osorno-scapes.netlify.com/"
                     className="projectIcons"
                   >
                     <FaDesktop />
